@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+}
+
+.login {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+p {
+    color: white;
+    font-size: 4rem;
+}
+
+input {
+    height: 2.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 3rem;
+    width: 20%;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.submit input {
+    margin-top: 1rem;
+    border: 1px solid white;
+    width: 10%;
+    cursor: pointer;
+}
+
+.submit input:hover {
+    background: lightpink;
+}
